@@ -406,6 +406,9 @@ export function cleanServiceGroups(groups) {
           watchlist,
           showUSMarketStatus,
 
+          // telegraf
+          host,
+
           // truenas
           enablePools,
           nasType,
@@ -554,6 +557,9 @@ export function cleanServiceGroups(groups) {
         }
         if (["sonarr", "radarr"].includes(type)) {
           if (enableQueue !== undefined) widget.enableQueue = JSON.parse(enableQueue);
+        }
+        if (type === "telegraf") {
+          if (host !== undefined) widget.host = host;
         }
         if (type === "truenas") {
           if (enablePools !== undefined) widget.enablePools = JSON.parse(enablePools);

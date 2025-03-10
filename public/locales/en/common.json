@@ -1210,5 +1210,8 @@
         "burned": "Burned",
         "remaining": "Remaining",
         "steps": "Steps"
+    },
+    "telegraf": {
+        "rootfs": "RootFS"
     }
 }
