@@ -1213,5 +1213,11 @@
     },
     "telegraf": {
         "rootfs": "RootFS"
+    },
+    "backup": {
+        "backupTime": "Backup time",
+        "backupSize": "Backup size",
+        "uploadTime": "Upload time",
+        "uploadSize": "Upload size"
     }
 }

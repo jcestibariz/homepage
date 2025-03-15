@@ -11,6 +11,7 @@ const components = {
   autobrr: dynamic(() => import("./autobrr/component")),
   azuredevops: dynamic(() => import("./azuredevops/component")),
   backrest: dynamic(() => import("./backrest/component")),
+  backup: dynamic(() => import("./backup/component")),
   bazarr: dynamic(() => import("./bazarr/component")),
   beszel: dynamic(() => import("./beszel/component")),
   booklore: dynamic(() => import("./booklore/component")),
