@@ -121,6 +121,7 @@ import slskd from "./slskd/widget";
 import sonarr from "./sonarr/widget";
 import sparkyfitness from "./sparkyfitness/widget";
 import speedtest from "./speedtest/widget";
+import speedtestidb from "./speedtestidb/widget";
 import spoolman from "./spoolman/widget";
 import stash from "./stash/widget";
 import stocks from "./stocks/widget";
@@ -283,6 +284,7 @@ const widgets = {
   sonarr,
   sparkyfitness,
   speedtest,
+  speedtestidb,
   spoolman,
   stash,
   stocks,

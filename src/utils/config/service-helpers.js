@@ -655,7 +655,7 @@ export function cleanServiceGroups(groups) {
         if (type === "healthchecks") {
           if (uuid !== undefined) widget.uuid = uuid;
         }
-        if (type === "speedtest") {
+        if (type === "speedtest" || type === "speedtestidb") {
           if (bitratePrecision !== undefined) {
             widget.bitratePrecision = parseInt(bitratePrecision, 10);
           }

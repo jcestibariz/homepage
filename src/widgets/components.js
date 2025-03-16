@@ -131,6 +131,7 @@ const components = {
   sonarr: dynamic(() => import("./sonarr/component")),
   sparkyfitness: dynamic(() => import("./sparkyfitness/component")),
   speedtest: dynamic(() => import("./speedtest/component")),
+  speedtestidb: dynamic(() => import("./speedtestidb/component")),
   spoolman: dynamic(() => import("./spoolman/component")),
   stash: dynamic(() => import("./stash/component")),
   stocks: dynamic(() => import("./stocks/component")),
