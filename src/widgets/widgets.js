@@ -101,6 +101,7 @@ import pihole from "./pihole/widget";
 import plantit from "./plantit/widget";
 import plex from "./plex/widget";
 import portainer from "./portainer/widget";
+import processes from "./processes/widget";
 import prometheus from "./prometheus/widget";
 import prometheusmetric from "./prometheusmetric/widget";
 import prowlarr from "./prowlarr/widget";
@@ -265,6 +266,7 @@ const widgets = {
   plantit,
   plex,
   portainer,
+  processes,
   prometheus,
   prometheusmetric,
   prowlarr,

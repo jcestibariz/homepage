@@ -1219,5 +1219,8 @@
         "backupSize": "Backup size",
         "uploadTime": "Upload time",
         "uploadSize": "Upload size"
+    },
+    "processes": {
+        "state": "State"
     }
 }
